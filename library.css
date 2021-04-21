@@ -1,0 +1,43 @@
+#addBook {
+    height: 100%;
+    width: 300px;
+    background-color: lightblue;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    border-right: solid black thick;
+}
+#bookDisplay {
+    padding-left: 330px;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    padding-left: 1px;
+}
+#finishedBook {
+    margin-bottom: 0px;
+}
+.book {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 10px;
+    border: solid thin black;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+}
+.remove {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 12px;
+}
+h1 {
+    border-bottom: solid thin black;
+}
